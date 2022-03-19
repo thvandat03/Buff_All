@@ -17,3 +17,11 @@ def update_value(fileName, cellName, newValue ):
   wbk.save(fileName)
 fileName = '   '
 cellName = '    '
+ # update full value
+accName = '   '
+accPass = '   '
+for row in range (starValue, endValue):
+  accName = '%s%s' % (accName,row)
+  accPass = '%s%s' % (accPass,row)
+  
+  
